@@ -1,0 +1,31 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="demo"><h2>Let AJAX change this text</h2></div>
+
+<form action="http://127.0.0.1:3000/lists/newitem" method="get">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<button type="button" >Change Content</button>
+<script>
+ /*   function loadDoc() { onclick="loadDoc()"
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                document.getElementById("demo").innerHTML = xhttp.responseText;
+              //  console.log(xhttp.responseText + ' kkkk')
+            }
+        };
+        xhttp.open("POST", "http://localhost:3000/lists?id=hh", true);
+        xhttp.send();
+    }*/
+</script>
+</body>
+</html>
